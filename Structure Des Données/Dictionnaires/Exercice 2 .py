@@ -1,14 +1,14 @@
-informations_personnelles = {
+info_perso = {
     "nom": "Hamza",
     "prenom": "ELma",
     "age": 17,
     "ville": "Beni Mellal"
 }
 
-informations_personnelles["email"] = "elmanouzi.ha@gmail.com"
+info_perso["email"] = "elmanouzi.ha@gmail.com"
 
-informations_personnelles["age"] = 18
+info_perso["age"] = 18
 
-del informations_personnelles["ville"]
+del info_perso["ville"]
 
-print(informations_personnelles)
+print(info_perso)
