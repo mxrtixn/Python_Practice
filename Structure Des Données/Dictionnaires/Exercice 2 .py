@@ -1,7 +1,7 @@
 info_perso = {
     "nom": "Hamza",
     "prenom": "ELma",
-    "age": 17,
+    "age": 16,
     "ville": "Beni Mellal"
 }
 
