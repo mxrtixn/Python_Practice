@@ -10,7 +10,7 @@ def ajouter_article(liste_courses, article, quantite):
 def supprimer_article(liste_courses, article):
     if article in liste_courses:
         del liste_courses[article]
-        print(f"L'article '{article}' a été supprime")
+        print(f"L'article '{article}' a ete supprime")
 
 
 def afficher_liste(liste_courses):
@@ -43,7 +43,7 @@ def main():
         print("4. Valider la liste")
         print("5. Quitter le programme")
 
-        choix = input("Entrez votre choix : ")
+        choix = input("\nEntrez votre choix : ")
 
         match choix:
             case "1":
@@ -52,7 +52,7 @@ def main():
                 ajouter_article(liste_courses, article, quantite)
 
             case "2":
-                article = input("Entrez le nom de l'article : ")
+                article = input("\nEntrez le nom de l'article : ")
                 supprimer_article(liste_courses, article)
 
             case "3":
@@ -65,7 +65,7 @@ def main():
                 quitter_programme()
 
             case _:
-                print("choix invalide!!")
+                print("\nchoix invalide!!\n")
 
 
 main()
